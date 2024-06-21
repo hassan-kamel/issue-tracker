@@ -8,7 +8,7 @@ const NewIssuePage = () => {
   return (
     <div className="max-w-xl space-y-3">
       <TextField.Root placeholder="Title" />
-      <SimpleMDE placeholder="Description" />
+      <SimpleMDE placeholder="Description " />
       <Button>Submit New Issue</Button>
     </div>
   );
